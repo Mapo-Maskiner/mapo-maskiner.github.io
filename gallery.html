@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mapo Maskiner - Galleri</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1 " charset="UTF-8"> 
+	
+	<style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+
+        }
+
+        /* Center website */
+        .main {
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        h1 {
+            font-size: 50px;
+            word-break: break-all;
+        }
+
+        .row {
+            margin: 8px -16px;
+        }
+
+        /* Add padding BETWEEN each column */
+        .row,
+        .row > .column {
+            padding: 8px;
+        }
+
+        /* Create four equal columns that floats next to each other */
+        .column {
+            float: left;
+            width: 50%;
+        }
+
+        /* Clear floats after rows */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Content */
+        .content {
+
+            max-width: 110%;
+            padding: 2%;
+            width: 110%;
+            background-color: lightskyblue;
+
+        }
+
+        /* Responsive layout - makes a two column-layout instead of four columns */
+        @media screen and (max-width: 900px) {
+            .column {
+                width: 50%;
+            }
+        }
+
+        /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 600px) {
+            .column {
+                width: 100%;
+            }
+        }
+
+        body{
+            background-color: lightskyblue;
+            background-position: center;
+            background-position: top;
+            background-repeat: no-repeat;
+        }
+
+        nav {
+            background-color: lightgray;
+		margin: 0 auto;
+        }
+
+        nav ul {
+            text-align: center;
+            box-shadow: 0 0 15px black, inset 0 0 1px;
+        }
+
+        nav ul li {
+            display: inline-block;
+            position: relative;
+
+        }
+
+        nav ul li a {
+            padding: 20px;
+            color: black;
+            font-size: 20px;
+            text-decoration: none;
+            display: block;
+
+        }
+
+        nav ul li a:hover {
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+            background: rgba(255, 255, 255, 0.1);
+
+        }
+
+.logo{
+            max-height:70px;
+			float: left;
+
+        }
+        p{
+            font-family: 'Roboto', sans-serif;
+        }
+        li{
+            font-family: 'Roboto', sans-serif;
+        }
+        h3{
+            font-family: 'Roboto', sans-serif;
+        }
+        h1{
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+</head>
+<body>
+
+<nav>
+    <ul>
+        <img src="assets/images/content/logo.png" class="logo">
+            <li>
+                <a href="index.html">Hem</a>
+            </li>
+            <li>
+                <a href="info.html">Info</a>
+            </li>
+            <li>
+                <a href="gallery.html">Galleri</a>
+            </li>
+            <li>
+                <a href="contact.html">Kontakt</a>
+            </li>
+            <li>
+                <a href="maskininfo.html">Maskinpark</a>
+            </li>
+    </ul>
+</nav>
+
+<div class="main">
+    <div class="row">
+        <div class="column">
+            <div class="content">
+                <img src="assets/images/content/1.jpg" width="400" height="400">
+
+            </div>
+        </div>
+        <div class="column">
+            <div class="content">
+                <img src="assets/images/content/2.jpeg"  width="400" height="400">
+
+            </div>
+        </div>
+        <div class="column">
+            <div class="content">
+                <img src="assets/images/content/3.jpeg"width="400" height="400">
+
+            </div>
+        </div>
+        <div class="column">
+            <div class="content">
+                <img src="assets/images/content/4.jpg" width="400" height="400">
+
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="content">
+                <img src="assets/images/content/5.jpg" width="400" height="400">
+
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="content">
+                <img src="assets/images/content/6.jpg"  width="400" height="400">
+
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="content">
+                <img src="assets/images/content/7.jpeg"  width="400" height="400">
+
+            </div>
+        </div>
+        <div class="column">
+            <div class="content">
+                <img src="assets/images/content/9.jpg"  width="400" height="400">
+
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="content">
+                <img src="assets/images/content/8.jpg"  width="400" height="400">
+
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="content">
+                <img src="assets/images/content/10.jpeg"  width="400" height="400">
+
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="content">
+                <img src="assets/images/content/11.jpeg"  width="400" height="400">
+
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
